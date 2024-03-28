@@ -214,14 +214,21 @@ form input {
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #fff;
+  border: none;
 }
 
 #controls button:first-of-type {
   background: #4e75ff;
 }
+#controls button:first-of-type:hover {
+  background-color: #6c8cff;
+}
 
 #controls button:nth-of-type(2) {
   background: #ff4e4e;
+}
+#controls button:nth-of-type(2):hover {
+  background-color: #ff7070;
 }
 
 #boxes {
