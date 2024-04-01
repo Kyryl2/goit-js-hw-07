@@ -15,5 +15,4 @@ function changeName() {
   } else {
     newName.textContent = "Anonymous";
   }
-  return;
 }
