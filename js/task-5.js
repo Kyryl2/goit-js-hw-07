@@ -14,3 +14,10 @@ function changeColor() {
 }
 
 button.addEventListener("click", changeColor);
+
+// VARIANT 2
+// btn.addEventListener("click", () => {
+//  const color = getRandomHexColor();
+//   body.style.backgroundColor = color;
+//   span.textContent = color;
+// });

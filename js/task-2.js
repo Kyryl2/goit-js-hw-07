@@ -28,3 +28,17 @@ const galleryItems = images.map((image) => {
 });
 
 galleryList.append(...galleryItems);
+
+// const gallery = document.querySelector(".gallery");
+// const newImages = images
+//   .map(
+//     (img) =>
+//       `<li class="item">
+//       <img
+//          src="${img.url}"
+//          alt="${img.alt}"
+//          class="image">
+//       </li>`
+//   )
+//   .join("");
+// gallery.innerHTML = newImages;
